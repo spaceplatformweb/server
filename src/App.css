@@ -1,0 +1,242 @@
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;    
+    width: 20%;
+    height: 20%;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+form, label, p {
+  color: white !important;
+}
+
+.logoLabel {  
+  margin-top: 5%;
+  margin-bottom: 4rem;
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+.form-control {  
+  border-radius: 60px;
+}
+
+input {
+  color: black !important;
+}
+
+.button {
+  background-color: #0059ff;
+  border: none;
+  color: white;
+  padding: 16px;
+  text-align: center;    
+  font-size: 1.7rem;
+  margin: 4px 2px;
+  width: 13rem;  
+  height: 5rem;
+}
+
+.button:hover {
+  background-color: darkgray;
+  color:black;
+}
+
+.mainlogowrapperpos {
+  margin-left: 50%;
+  margin-right: 50;
+}
+
+
+.button1 {border-radius: 2px;}
+.button2 {border-radius: 4px;}
+.button3 {border-radius: 8px;}
+.button4 {border-radius: 60px;}
+.button5 {border-radius: 80%;}
+
+html {
+  font-size: 62.5%;
+  box-sizing:border-box;
+}
+body {
+  font: 1.6rem Hevetica;
+  height: 100vh;
+  margin:0;
+  background-color: #0D1122;
+}
+
+.grid-container {  
+  grid-template-areas:
+  "header"
+  "main"
+  "footer";
+  height:100%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  font-size: calc(10px + 2vmin);
+}
+
+.header {
+  margin-top: 3rem;
+  grid-area: header;
+  background-color: #0D1122;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;    
+}
+.main {
+  grid-area: main;
+}
+.footer {  
+  margin-top: 8rem;
+  grid-area: footer;
+  background-color:  #0D1122;
+  color: #2f2e74;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;  
+  bottom: 0;
+  width: 100%;
+  position: relative;
+}
+
+.loginbtn {
+  margin-top: 8.5rem;  
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.registerbtn {
+  justify-content: center;
+  margin-left: 2.5rem;
+  color:#006eff;  
+  font-size: 1.7rem;
+}
+
+.registerbtnContainer {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 5.5rem;
+}
+.findpassbtn {
+  text-align: right;
+  margin-top: .5rem;
+  float:right;
+  color:#006eff;  
+  margin-right: 1rem;
+  font-size: 1.7rem;
+}
+
+/* .header-links a {
+  color: #ffffff;    
+}
+.header-links a:hover {
+  color: orange;
+} */
+
+/*Side Bar*/
+
+.sidebar-button{
+  font-size: 5rem;
+  padding: 2rem;
+  background: none;
+  border: none;
+  color: #1654ff;
+  cursor: pointer;    
+  padding-top: .5rem;     
+}
+
+.sidebar {
+  position: fixed;
+  transform: translateX(-30rem);
+  transition: all .5se;
+  width: 30rem;
+  background-color: #080c1d;    
+  height: 100%;
+  color: #ffffff;
+}
+
+.sidebar.open {
+  transform: translateX(0);
+}
+
+.sidebar-close-button {    
+  font-size: 5rem;
+  padding: 2rem;
+  background: none;
+  border: none;
+  color: #1654ff;
+  cursor: pointer;    
+  padding-top: .5rem;     
+  float: right;
+}
+
+.sidebar_links a{
+  color: #ffffff;       
+  height: 5rem;
+  margin-bottom: 5rem;
+  font-size: 1.7rem;
+  padding-bottom: 5rem;    
+}
+
+.ETCBtns {
+  margin-top: 3rem;
+  justify-items: left;
+  text-align: center;
+  align-items: center;
+  padding-right: 2rem;
+  font-size: 1.7rem;
+}
+.frontlinkbtn {  
+  margin-left: 2rem;  
+  color:#ffffff;
+  text-decoration: underline;
+
+}
+.mallbtn {
+  margin-left: 2rem;
+  color:#ffffff;
+  text-decoration: underline;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.7rem;
+  margin-top: 1rem;
+  color:#442ba0
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.7rem;
+  margin-top: 2rem;
+}
+
+.labelContainer {
+  font-size: 1.7rem;
+}
